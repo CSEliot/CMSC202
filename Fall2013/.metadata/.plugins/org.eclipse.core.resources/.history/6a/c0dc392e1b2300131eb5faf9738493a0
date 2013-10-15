@@ -1,0 +1,20 @@
+
+
+public class ConnectFour {
+
+	/**
+	 * @param args
+	 */
+	
+	public static void say(String string){
+		System.out.printf(string);
+	}
+
+	private String[][] gridMain;
+	
+	private ConnectFour(int width, int height){
+		gridMain = new String[width][height];
+		
+		
+	}
+}

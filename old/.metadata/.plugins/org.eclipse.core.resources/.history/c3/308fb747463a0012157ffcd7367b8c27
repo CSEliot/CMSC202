@@ -1,0 +1,15 @@
+package lab11;
+
+public class CatalogItem<S extends Media> implements Comparable<CatalogItem<S>>
+{
+
+	public S media;
+	
+	@Override
+	public int compareTo(CatalogItem<S> o) 
+	{
+		return 0;
+	}
+
+	
+}

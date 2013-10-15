@@ -1,0 +1,43 @@
+ package proj5;
+
+import java.util.Vector;
+
+public class Train 
+{
+	Vector <Boxcar> train_list = new Vector <Boxcar> ();  
+	
+	
+	public <T> void ADDCAR(Boxcar<T> car)
+	{
+		train_list.add(car);
+	}
+	
+	public void PRINT()
+	{
+		System.out.println(train_list);
+	}
+
+	public static void main(String [] args)
+	{
+		Train test = new Train();
+		
+		test.ADDCAR
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+

@@ -1,0 +1,5 @@
+//Try, Catch, and Finally
+
+try{}
+catch(exception e;){}
+finally{file.close;){}

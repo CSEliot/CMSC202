@@ -1,0 +1,29 @@
+package lab11;
+
+public interface Media
+{
+
+	
+	/**
+	 * @return Returns a generic type Id which will be an Integer or a String based on whether a Book implements Media or a CD.
+	 */
+	public <T> Comparable<T>  getId();
+		
+	/**
+	 * @return Returns a String and has no arguments. Its return value should be the name of the person responsible for creating this Media. 
+	 */
+	public String getCreator();
+		
+	/**
+	 * @return Returns a String and has no arguments. Its return value should be the title of this Media. 
+	 */
+	public String getTitle();	
+		
+	/**
+	* @return Returns an int and has no arguments. Its return value should be the year that this Media was created.
+	*/
+	public int getYear();	
+	
+	
+	
+}

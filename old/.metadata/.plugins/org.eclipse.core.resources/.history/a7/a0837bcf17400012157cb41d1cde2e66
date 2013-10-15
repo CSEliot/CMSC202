@@ -1,0 +1,25 @@
+package proj5;
+
+import java.util.Vector;
+
+public class Boxcar <T> 
+{
+
+	Vector <T> load_list = new Vector <T> ();
+	T load;
+	
+	public Boxcar(T load)
+	{
+		this.load = load;
+	}
+
+	public Vector<T> getLoad_list() 
+	{
+		return load_list;
+	}
+
+	public void setLoad_list(Vector<T> load_list) {
+		this.load_list = load_list;
+	}
+	
+}

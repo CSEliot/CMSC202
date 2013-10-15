@@ -1,0 +1,17 @@
+package lab1;
+
+public class Lab1 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int i = 0;
+		while( i < 3);
+			System.out.println(i);
+		System.out.println("Finished");
+		
+
+	}
+
+}

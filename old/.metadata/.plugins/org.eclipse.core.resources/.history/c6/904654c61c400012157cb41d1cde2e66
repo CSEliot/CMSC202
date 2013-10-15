@@ -1,0 +1,22 @@
+package proj5;
+
+public class Project5 
+{
+	
+	public static void main(String [] args)
+	{
+		//make a train
+		Train test = new Train();
+		//make a person
+		Person test_man = new Person(0, "123-12-1234", "Joe Cafe", 18 );
+		//make a box car
+		Boxcar<Person> test_box = new Boxcar<Person>();
+		//add a box car to the train
+		test.ADDCAR(test_box);
+		//add a person to the specified box car
+		test_box.load_onto(test_man.getBox_number(), test_man);
+		//print out the first person in the first box car
+		System.out.println(test.getTrain_list().get(0).getLoad_list().get(0).toString());
+	}
+
+}

@@ -1,0 +1,10 @@
+#! /bin/bash
+# this is being run in my Fall2013 workspace, that hold the project: 
+# CMSC202-labs, among others. running: java lab1.Lab1 works, but any folder
+# higher, outside of the source file, throws an error.
+
+
+javac -d CMSC202-labs/src/ CMSC202-labs/src/lab1/*.java
+java CMSC202-labs/src/lab1/lab1.Lab1
+
+

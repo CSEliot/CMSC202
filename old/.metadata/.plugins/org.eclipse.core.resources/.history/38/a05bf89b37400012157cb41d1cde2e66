@@ -1,0 +1,87 @@
+package lab9;
+
+import java.util.Scanner;
+import java.io.*;
+
+public class StudentDriver {
+	
+	String str;
+	
+	
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) 
+	{		
+		FileInputStream file = null;// 
+		
+		Scanner fileScanner = null; //
+		Student students[];
+		int numStudents = 0;
+
+		//Step a: Perform number of arguments check 
+		if (args == null || args.length <= 0)
+		{
+			throw new IllegalArgumentException("No/empty file input");
+		}
+			
+		try
+		{
+			file = new FileInputStream(args[0]);
+			fileScanner = new Scanner(file); 
+        }
+		catch (FileNotFoundException e)
+		{
+            System.out.println("File not found " 
+                                    + e.getMessage());
+            System.exit(-1);
+        }		
+
+		numStudents = fileScanner.nextInt();
+
+		
+
+        System.out.println("The number of students is: " + numStudents);
+    
+        /*Step d: Allocate memory for students array based on 
+        numStudents
+        */	
+
+        students = new Student[numStudents];
+        
+        int i = 0;
+    
+        while (fileScanner.hasNext())
+        {
+        	
+        	students[i] = new Student(fileScanner.next(), fileScanner.nextInt());
+            i++;
+        	/*Step e: Read from the file line by line using the 
+            Scanner object and store the values read in the 
+            students array.
+            */
+
+            // code to read the tuple [name] [id] from file 
+            
+        }
+    
+        /* Step f: close the file reader as you are done 
+        reading the file
+        */
+        fileScanner.close();
+    
+        /*Step g: Print out the information read from the 
+        file which is stored in students array in the form
+        Student name = [name] and id = [id]
+        */
+        for(Student n: students)
+        {
+        	System.out.println("" + n.getName());
+        	System.out.println("" + n.getId());
+        	
+        }
+
+	}	
+}
+
+

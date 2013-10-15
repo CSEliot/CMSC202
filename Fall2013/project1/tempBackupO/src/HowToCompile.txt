@@ -1,0 +1,2 @@
+javac -d . proj1/*.java
+java proj1.Project1
