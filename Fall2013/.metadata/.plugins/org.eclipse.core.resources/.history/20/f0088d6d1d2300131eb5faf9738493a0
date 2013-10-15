@@ -1,0 +1,35 @@
+/**
+ * 
+ */
+package proj1;
+
+import java.util.Scanner;
+
+/**
+ * @author eliot2
+ *
+ */
+public class Project1 {
+
+	/**
+	 * @param args
+	 */
+	
+	
+	Scanner input = new Scanner(System.in);
+	
+	boolean won;
+	boolean playing; 
+	
+	public static void say(String string){
+		System.out.printf(string);
+	}
+	
+	public static void main(String[] args) {
+		say("This is Connect Four! Please give # of columbs:");
+		get
+		  
+
+	}
+
+}

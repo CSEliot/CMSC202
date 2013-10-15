@@ -1,0 +1,2 @@
+javac -d . lab1/*.java
+java lab1.HelloWorld

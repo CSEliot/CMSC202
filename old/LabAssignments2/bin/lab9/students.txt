@@ -1,0 +1,5 @@
+3
+John 10
+Mike 20
+Steve 30
+Bob 69

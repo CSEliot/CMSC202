@@ -1,0 +1,5 @@
+int len = 2;
+
+while(len >=2)
+{ System.out.println("Hi there");}
+

@@ -1,0 +1,16 @@
+package proj5;
+
+public class Boxcar <T> 
+{
+
+	
+	T cart;
+	
+	public Boxcar(T cart)
+	{
+		this.cart = cart;
+	}
+
+
+	
+}

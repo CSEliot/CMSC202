@@ -1,0 +1,24 @@
+	
+package lab1;
+
+public class Lab1 {
+
+	public void say(String words){
+		System.out.printf(words);
+	}
+	
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int i = 0;
+		while( i < 3){
+			System.out.println(i);
+			i++;
+		}
+		System.out.println("Finished-OKAY!!");
+		say("test");
+
+	}
+
+}

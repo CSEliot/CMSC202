@@ -1,0 +1,20 @@
+package project1;
+
+public class Gameboard {
+
+	/**
+	 * @param args
+	 */
+	
+	public static void say(String string){
+		System.out.printf(string);
+	}
+
+	private String[][] gridMain;
+	
+	private Gameboard(int width, int height){
+		gridMain = new String[width][height];
+		
+		
+	}
+}

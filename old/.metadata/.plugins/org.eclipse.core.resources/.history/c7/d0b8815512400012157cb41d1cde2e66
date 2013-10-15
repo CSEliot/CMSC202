@@ -1,0 +1,12 @@
+ package proj5;
+
+public class Train 
+{
+	Vector <Boxcar> train_list = new Vector <Boxcar> ();  
+	public <T> void ADDCAR(T car)
+	{
+		
+	}
+	
+	
+}

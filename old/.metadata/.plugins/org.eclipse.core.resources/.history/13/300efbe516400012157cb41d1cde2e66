@@ -1,0 +1,60 @@
+package proj5;
+
+public class Person 
+{
+
+	int box_number;
+	String gov_ID;
+	String name;
+	int age;
+	
+	public Person(int box_number, String gov_ID, String name, int age) 
+	{
+		this.age = age;
+		this.box_number = box_number;
+		this.gov_ID = gov_ID;
+		this.name = name;
+	}
+
+	public int getBox_number() 
+	{
+		return box_number;
+	}
+
+	public void setBox_number(int box_number) 
+	{
+		this.box_number = box_number;
+	}
+
+	public String getGov_ID() 
+	{
+		return gov_ID;
+	}
+
+	public void setGov_ID(String gov_ID) 
+	{
+		this.gov_ID = gov_ID;
+	}
+
+	public String getName() 
+	{
+		return name;
+	}
+
+	public void setName(String name) 
+	{
+		this.name = name;
+	}
+
+	public int getAge() 
+	{
+		return age;
+	}
+
+	public void setAge(int age) 
+	{
+		this.age = age;
+	}
+	
+	
+}

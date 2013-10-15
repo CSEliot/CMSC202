@@ -1,0 +1,16 @@
+package proj5;
+
+public class Boxcar <T> 
+{
+
+	
+	T load;
+	
+	public Boxcar(T load)
+	{
+		this.load = load;
+	}
+
+
+	
+}

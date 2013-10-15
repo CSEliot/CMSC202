@@ -1,0 +1,43 @@
+/**
+ * 
+ */
+package proj1;
+
+import java.util.Scanner;
+
+/**
+ * @author eliot2
+ *
+ */
+public class Project1 {
+
+	/**
+	 * @param args
+	 */
+	
+	
+	Scanner input = new Scanner(System.in);
+	final static int minGridSize = 5;
+	boolean won;
+	boolean playing; 
+	
+	public static void say(String string){
+		System.out.printf(string);
+	}
+	
+	
+	private static void getNumber(int maxNum, int minNum) {
+		
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		say("This is Connect Four! Please give # of columbs:\n");
+		getNumber(0, minGridSize);
+		  
+
+	}
+
+
+}

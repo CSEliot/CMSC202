@@ -1,0 +1,32 @@
+/**
+ * 
+ */
+package project1;
+
+/**
+ * @author eliot2
+ *
+ */
+public class Project1 {
+
+	/**
+	 * @param args
+	 */
+	
+	
+	Scanner input = new Scanner();
+	
+	boolean won;
+	boolean playing; 
+	
+	public static void say(String string){
+		System.out.printf(string);
+	}
+	public static void main(String[] args) {
+		say("Let's play some 4cross!!");
+		
+		  
+
+	}
+
+}

@@ -1,0 +1,30 @@
+package lab11;
+
+public class CatalogItem<S extends Media> implements Comparable<CatalogItem<S>>
+{
+
+	private S media;
+	
+	public CatalogItem(S media) 
+	{
+		this.media = media;
+	}
+
+	@Override
+	public int compareTo(CatalogItem<S> o) 
+	{
+		return media.getId().compareTo(o.media.getId());
+	}
+
+	public String toString()
+	{
+		String str = "" + "\nId: " + media.getId()
+						+ "\nCreator: " + media.getCreator()
+						+ "\nTitle: " + media.getTitle()
+						+ "\nYear: " + media.getYear()
+						+ "";
+						
+		return str;
+	}
+	
+}

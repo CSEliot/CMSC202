@@ -1,0 +1,63 @@
+package lab3;
+
+public class Fraction {
+
+	/**
+	 * @param args
+	 */
+	
+
+	private int numerator;
+	
+	private int denominator;
+
+	public Fraction( int numerator, int denominator)
+	{
+		//Dividing by zero exception
+		if (denominator == 0)
+			throw new RuntimeException("Divide By Zero Exception");
+		else
+		{
+			this.numerator = numerator;
+			this.denominator = denominator;
+		}
+	}
+	
+	public int getNumerator()
+	{
+		return numerator;
+		
+	}
+
+	String str = " \n";
+	
+	public String toString()
+	{
+		str += "numerator = " + numerator +" \ndenominator = "+ denominator ;
+		return str;
+		
+	}
+
+	
+	public double decimalValue()
+	{
+	  //Explicitly change the data type of numerator and denominator. Eg. (double)var;
+	  //return the decimal value by dividing the numerator and denominator, both converted to double
+		return (double)numerator/(double)denominator;
+		
+	
+	}
+
+	
+	
+	public Fraction multiply( Fraction otherFraction )
+	{
+        Fraction firstFraction = new Fraction(*, denominator);
+	    //create a new fraction object, by invoking its constructor with the required arguments.
+	    //the first argument will be the product of the numerators of the calling object and the object passed as argument.
+	    //the second argument will be the product of denominators of calling object and the object passed as the argument.
+	}
+
+
+}
+

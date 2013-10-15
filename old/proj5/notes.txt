@@ -1,0 +1,15 @@
+/**
+ * .java
+ * @version 12/8/2012
+ * @author Eliot Carney-Seim <eliot2@umbc.edu>
+ * @Lab CMSC 202 - Spring 2012
+ * @section 5
+ * @Assistance nope
+ * @Description
+ */ 
+ 
+ 
+/******************** instance variables ************************************/
+/******************** core methods ******************************************/
+/******************** getters/setters ***************************************/
+/******************** interface methods *************************************/

@@ -1,0 +1,9 @@
+
+
+public class ConnectFur {d
+		private int{}{} board;
+		
+		public ConnectFour(int rows, int cols){
+			board = new int[rows][cols];
+		}
+}

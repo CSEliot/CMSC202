@@ -1,0 +1,22 @@
+package proj5;
+
+import java.util.Vector;
+
+private class Boxcar <T> 
+{
+
+	Vector <T> load_list = new Vector <T> ();
+	
+	public void load_onto(int box_number, T load)
+	{
+		load_list.add(box_number, load);
+	}
+
+
+	public Vector<T> getLoad_list() 
+	{
+		return load_list;
+	}
+
+	
+}
